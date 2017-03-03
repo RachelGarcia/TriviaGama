@@ -1,0 +1,62 @@
+body,html {
+	height: 100%;
+}
+
+body {
+    background-image: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg");
+ 	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 75px;
+	margin-top: 20px;
+}
+
+h2 {
+	top: 50%;
+	font-size: 25px;
+	font-style: italic;
+}
+
+p,h3 {
+	font-size: 25px;
+	color: pink;
+}
+
+p:hover { 
+   background-color: #ffffff;
+   font-size: 40px;
+   color: #000000;
+}
+
+h1,h2,h3,p {
+	color: #ffffff;
+}
+
+#GameBoard {
+	position: absolute;
+	margin: auto;
+	text-align: center;
+	background-color: purple;
+	width: 65%;
+	height: 80%;
+	top: 10%;
+	left: 15%;
+}
+
+#gameSection{
+	position: absolute;
+	margin: auto;
+	left: 10%;
+	top: 25%;
+	width: 80%;
+}
+
+button {
+	position: absolute;
+	bottom: 10%;
+	left: 25%;
+	width: 50%;
+	font-size: 40px;
+	background: pink;
+}
